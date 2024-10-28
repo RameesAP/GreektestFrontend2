@@ -3,15 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import Logo from "../assets/Mask group.png";
-// import Bell from "../assets/notification.svg";
-// import Bell from "../assets/notification.png";
 import { useState } from "react";
-import { CiBellOn } from "react-icons/ci";
-import { GoBell } from "react-icons/go";
-
 import { AiFillBell } from "react-icons/ai";
 import { AiOutlineBell } from "react-icons/ai";
-
 import profileIcon from "../assets/Ellipse 346.png";
 
 const Nav = () => {

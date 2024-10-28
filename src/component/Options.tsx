@@ -6,7 +6,6 @@ const SecOptions = () => {
   return (
     <div className="bg-[#F1F1F1] shadow p-4 sm:p-6 mb-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Location Card */}
         <div className="flex items-center w-full max-w-md h-20 bg-white rounded-md p-2">
           <div className="flex items-center">
             <img className="w-9 h-9" src={location} alt="location" />
@@ -17,7 +16,6 @@ const SecOptions = () => {
           </div>
         </div>
 
-        {/* Date Card */}
         <div className="flex items-center w-full max-w-md h-20 bg-white border rounded-md p-2">
           <div className="flex items-center">
             <img className="w-9 h-9" src={calender} alt="calendar" />
@@ -28,7 +26,6 @@ const SecOptions = () => {
           </div>
         </div>
 
-        {/* People Card */}
         <div className="flex items-center w-full max-w-md h-20 bg-white border rounded-md p-2">
           <div className="flex items-center">
             <img className="w-9 h-9" src={people} alt="people" />
@@ -39,7 +36,6 @@ const SecOptions = () => {
           </div>
         </div>
 
-        {/* Update Search Button */}
         <div className="flex items-center justify-center w-full max-w-md h-20 bg-[#DB2D2E] font-semibold text-white rounded-md p-2">
           Update Search
         </div>
@@ -49,4 +45,3 @@ const SecOptions = () => {
 };
 
 export default SecOptions;
-
