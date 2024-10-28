@@ -1,9 +1,9 @@
 import {
   Card,
   CardContent,
-  CardFooter,
+  //   CardFooter,
   CardHeader,
-  CardTitle,
+  //   CardTitle,
 } from "@/components/ui/card.js";
 import updown from "../assets/Frame.png";
 import filter from "../assets/filter.png";
